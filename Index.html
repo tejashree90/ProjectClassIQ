@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClassIQ</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+
+  <!---header-->
+  <div class="container-fluid">
+    <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <img class="brand-logo" src="images/logo.png"  id="brandLogo" alt="ClassIQ Logo">
+        <span id="course" class="dashboard-link">Courses</span>
+      </div>
+      <div class="header-buttons">
+       <button class="login-btn" id="loginButton">Login</button>
+  <button class="signup-btn" id="signupButton">Signup</button>
+      </div>
+    </div>
+  </header>
+
+  <!---Section-->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>
+          Empower Your<br>
+          Learning Journey<br>
+          with <strong>ClassIQ</strong>
+        </h1>
+        <p>
+          Unlock a world of knowledge with skills that will elevate
+          your career, expand your horizons, and transform your
+          learning journey into an exciting new experience.
+        </p>
+
+        <button  class="primary-btn" id="course">
+          Explore Courses
+        </button>
+      </div>
+      <div class="hero-image">
+        <img src="images/img1.png" alt="ClassIQ Student">
+      </div>
+    </div>
+  </section>
+
+  <!---Section2-->
+ <section class="trusted">
+  <p>Trusted by 5,000+ Companies Worldwide</p>
+  <div class="logo-marquee">
+    <div class="company-logos">
+      <img src="images/google.png" alt="Google">
+      <img src="images/netflix.png" alt="Netflix">
+      <img src="images/airbnb.png" alt="Airbnb">
+      <img src="images/amazon.png" alt="Amazon">
+      <img src="images/facebook.png" alt="Facebook">
+      <!-- duplicate the same logos again for seamless loop -->
+      <img src="images/google.png" alt="Google">
+      <img src="images/netflix.png" alt="Netflix">
+      <img src="images/airbnb.png" alt="Airbnb">
+      <img src="images/amazon.png" alt="Amazon">
+      <img src="images/facebook.png" alt="Facebook">
+    </div>
+  </div>
+</section>
+
+  <!---Section3-->
+  <section class="prof">
+    <p>Certified Cources for<strong> Professionals</strong> </p>
+    <div class="prof-features">
+      <div class="course-card">
+        <div class="course-icon">
+          <span><i class="fa-solid fa-laptop-code"></i></span>
+        </div>
+        <h3>Web Development</h3>
+        <button>View Courses</button>
+      </div>
+
+      <div class="course-card">
+        <div class="course-icon">
+          <span><i class="fa-solid fa-laptop-code"></i></span>
+        </div>
+        <h3>Data Science</h3>
+        <button>View Courses</button>
+      </div>
+
+      <div class="course-card">
+        <div class="course-icon">
+          <span><i class="fa-solid fa-laptop-code"></i></span>
+        </div>
+        <h3>App Development</h3>
+        <button class="view-btn">View Courses</button>
+      </div>
+    </div>
+  </section>
+
+  <!----section4 -->
+
+   <section class="solution">
+    <div class="solution-image">
+      <img src="images/img1.png" alt="ClassIQ Student">
+    </div>
+    <div class="solution-text">
+      <h1>All-In-One Solution</h1>
+      <ul class="solution-points">
+        <li><i class="fa-solid fa-clipboard-list"></i> Flexible Learning</li>
+        <li><i class="fa-solid fa-user-check"></i> Expert Instructors</li>
+        <li><i class="fa-solid fa-users"></i> Community</li>
+      </ul>
+      <button href="#" target="_blank" class="primary-btn" id="exploreBtn">
+        <i  class="fa-solid fa-share"></i> Join Now
+      </button>
+    </div>
+  </section>
+
+  <!---------Footer--------->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+       <img class="brand-logo" src="images/logo.png" alt="ClassIQ Logo">
+       <h6 class="footer-logo-text">Subscribe </h6> 
+        <p>Subscribe for the latest courses, tips, and updates, join our learning community today!</p>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Enter your email">
+          <button href="#" target="_blank" type="submit">Subscribe</button>
+        </form>
+      </div>
+ 
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>ClassIQ Business</h4>
+          <ul>
+            <li><a href="#">Teach on ClassIQ</a></li>
+            <li><a href="#">Teaching Tools</a></li>
+            <li><a href="#">Course Log</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Careers</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Affiliate</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="footer-bottom">
+      <p>&copy; 2025 ClassIQ. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+ 
+</div>
+  
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
