@@ -19,19 +19,3 @@ document.getElementById('dashboard').addEventListener('click', function () {
   window.location.href = 'index.html';
 });
 
-
-  window.addEventListener('DOMContentLoaded', function () {
-    const track = document.querySelector('.company-logos');
-    let scrollAmount = 0;
-
-    function autoScroll() {
-      scrollAmount -= 1;
-      if (Math.abs(scrollAmount) >= track.scrollWidth / 2) {
-        scrollAmount = 0;
-      }
-      track.style.transform = `translateX(${scrollAmount}px)`;
-      requestAnimationFrame(autoScroll);
-    }
-
-    autoScroll();
-  });

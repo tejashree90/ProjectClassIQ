@@ -204,18 +204,15 @@ background: #ECEDEF
   z-index: 2;
 }
 
+
+.signupForm3{
+  background: #ebebeb;
+}
+
 .logo-marquee {
   overflow: hidden;
   width: 100%;
   margin-top: 15px;
-}
-
-.company-logos {
-  display: flex;
-  align-items: center;
-  gap: 55px;
-  width: max-content;
-
 }
 
 .company-logos img {
@@ -232,8 +229,13 @@ background: #ECEDEF
   filter: grayscale(0%);
 }
 
-.signupForm3{
-  background: #ebebeb;
+.company-logos {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  width: max-content;
+  animation: scrollLogos 20s linear infinite;
+
 }
 
 @keyframes scrollLogos {
@@ -244,6 +246,7 @@ background: #ECEDEF
 .logo-marquee:hover .company-logos {
   animation-play-state: paused;
 }
+
 
 .trusted {
   max-width: 1120px;
