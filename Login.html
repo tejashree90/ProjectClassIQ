@@ -34,16 +34,18 @@
   <div class="form-wrapper">
   <div class="form-container">
     <h2>Login</h2>
-    <form id="signupForm3" class="signupForm3">
+    <form id="loginForm" class="signupForm3" novalidate>
       <div class="form-group">
         <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+        <small class="error-message" id="emailError"></small>
       </div>
 
       <div class="form-group">
         <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+        <small class="error-message" id="passwordError"></small>
       </div>
 
-      <button type="submit" class="signup-btn2">SignUp</button>
+      <button type="submit" class="signup-btn2">Login</button>
 
       <h4>Don't have an account? <a href="Signup.html">SignUp</a></h4>
     </form>

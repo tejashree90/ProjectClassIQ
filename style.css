@@ -653,6 +653,19 @@ justify-content: space-around;
   opacity: 1;
 }
 
+.form-group input.input-invalid {
+  border-color: #d93025;
+}
+
+.error-message {
+  display: block;
+  min-height: 16px;
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #d93025;
+}
+
 
 .form-container h4 {
   text-align: center;

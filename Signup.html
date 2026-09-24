@@ -22,7 +22,7 @@
   <header class="header">
     <div class="header-inner">
       <div class="brand">
-        <img class="brand-logo" src="images/logo.png" id="brandLogo"alt="ClassIQ Logo" loading="lazy">
+        <img class="brand-logo" src="images/logo.png" id="brandLogo" alt="ClassIQ Logo" loading="lazy">
      <span id="course" class="dashboard-link">Courses</span>
       </div>
       <div class="header-buttons">
@@ -34,23 +34,24 @@
   <div class="form-wrapper">
   <div class="form-container">
     <h2>SignUp</h2>
-    <form class="signupForm3">
+    <form id="signupForm" class="signupForm3" novalidate>
+      <div class="form-group">
+        <input type="text" id="fullname" name="fullname" placeholder="Enter Your Fullname" required>
+        <small class="error-message" id="fullnameError"></small>
+      </div>
       <div class="form-group">
         <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
-      </div>
- <div class="form-group">
-        <input type="email" id="fullname" name="fullname" placeholder="Enter Your Fullname" required>
+        <small class="error-message" id="emailError"></small>
       </div>
 
       <div class="form-group">
         <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+        <small class="error-message" id="passwordError"></small>
       </div>
 
       <button type="submit" class="signup-btn2">SignUp</button>
 
-     
-      <h4>
-      Already have an account? <a href="Login.html"></a>Login</a></h4>
+      <h4>Already have an account? <a href="Login.html">Login</a></h4>
     </form>
   </div>
 </div>
